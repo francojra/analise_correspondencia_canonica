@@ -16,4 +16,26 @@
 
 ## As correlações da CCA tenta maximizar as relações entre as variáveis x e y.
 
+# Prática ----------------------------------------------------------------------------------------------------------------------------------
+
+## Baixar pacote e dados
+
+library(vegan)
+data("varespec")
+data("varechem")
+
+## Nomear os dados ambientais x dados biológicos
+
+sp <- varespec
+amb <- varechem
+
+## Consulta sobre a análise
+
+?cca
+
+## Modelo da análise RDA
+
+result_cca <- cca(sp, amb)
+result_cca
+
 
