@@ -37,5 +37,13 @@ amb <- varechem
 
 result_cca <- cca(sp, amb)
 result_cca
+summary(result_cca)
 
+## Interpretação dos resultados
 
+# A proporção da inércia explicada (constrained) pelas variáveis foi de quase 70%.
+# O sumário também apresenta a importância dos componentes que até a segunda CCA
+# foi de 35% de proporção explicada.
+
+# No sumário podemos encontrar os escores de cada variável ambiental, de cada espécie
+# e dos locais nos componentes.
