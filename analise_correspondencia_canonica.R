@@ -47,3 +47,12 @@ summary(result_cca)
 
 # No sumário podemos encontrar os escores de cada variável ambiental, de cada espécie
 # e dos locais nos componentes.
+
+## Visualização
+
+plot(result_cca)
+
+## Interpretação do gráfico
+
+# Os vetores em azul do gráfico são as variáveis ambientais, os nomes
+# em vermelho são as espécies e os números em preto, os sítios de coleta.
