@@ -33,7 +33,7 @@ amb <- varechem
 
 ?cca
 
-## Modelo da análise RDA
+## Modelo da análise CCA
 
 result_cca <- cca(sp, amb)
 result_cca
